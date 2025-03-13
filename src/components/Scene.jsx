@@ -12,7 +12,7 @@ export default function Scene() {
       <directionalLight position={[10, 10, 5]} intensity={1} />
       <pointLight position={[-5, 5, 5]} intensity={1} color="white" />
       <Suspense fallback={null}>
-        <mesh scale={[30, 30, 30]} rotation={[0, Math.PI, 0]}>
+        <mesh scale={[25, 25, 25]} rotation={[0, Math.PI, 0]}>
           <Model />
         </mesh>
       </Suspense>
