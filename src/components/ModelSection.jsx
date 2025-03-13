@@ -5,7 +5,7 @@ const ModelSection = () => {
   return (
     <div>
       <div className="  w-full h-[100vh] flex flex-col lg:flex-row    p-5 py-10 ">
-        <div className=" w-full lg:w-[40%] h-full center">
+        <div className=" w-full lg:w-[50%]  h-full center">
           <div className=" w-full h-[50%]  center  md:w-[80%] md:h-[80%] ">
             <Suspense
               fallback={
@@ -16,7 +16,7 @@ const ModelSection = () => {
             </Suspense>
           </div>
         </div>
-        <div className=" w-full h-[50%]   lg:w-[60%] spectral-light md:h-full  flex flex-col gap-10 items-center justify-center text-center">
+        <div className=" w-full h-[50%]   lg:w-[50%] spectral-light md:h-full  flex flex-col gap-10 items-center justify-center text-center">
           <p className="capitalize text-2xl md:text-4xl  ">
             {" "}
             <span className="text-[#6d1d45] italic text-4xl md:text-6xl   ">
