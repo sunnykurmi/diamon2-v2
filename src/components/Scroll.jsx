@@ -128,10 +128,10 @@ export default function Scroll() {
         >
           <div className="w-full h-full bg-[#0000003f]  z-[3] absolute"></div>
           <div className=" txt3 absolute flex flex-col gap-5 text-[#ffffff] z-[3] right-[5%] bottom-[10%]  ">
-            <p className="text-5xl  spectral-light">
-              Diamond2 Experience Center
+            <p className="text-5xl  spectral-light">Diamond2 Experience Center</p>
+            <p className="text-xl montserrat font-medium">
+             Haryana, India
             </p>
-            <p className="text-xl montserrat font-medium">Haryana, India</p>
             <button className="bg-[#6D1D45] px-4 py-2 w-fit rounded-lg text-white ">
               Locate Us
             </button>

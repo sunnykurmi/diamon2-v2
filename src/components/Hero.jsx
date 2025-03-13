@@ -14,7 +14,7 @@ const Hero = () => {
         ></video>
         <div className="overlay absolute w-full h-full bg-[#00000077] z-10  "></div>
         <div className="w-[80%]   absolute z-20 bottom-10  text-center  center flex-col capitalize text-white">
-          <p className=" text-[9vw] spectral-light ">comming soon</p>
+          <p className=" text-[9vw] spectral-light ">coming soon</p>
           <p className=" text-xs md:text-lg w-full md:w-[70%] montserrat">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
             tempora laboriosam numquam, blanditiis deleniti quod nisi delectus

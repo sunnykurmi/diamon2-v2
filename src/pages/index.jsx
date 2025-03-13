@@ -8,6 +8,7 @@ import Nav from "@/components/Nav";
 import Scroll from "@/components/Scroll";
 
 import Lenis from "lenis";
+import "lenis/dist/lenis.css";
 import { useEffect } from "react";
 
 const Home = () => {
