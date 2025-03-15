@@ -87,12 +87,14 @@ export default function Scroll() {
           className="w-full h-full  overflow-hidden z-[1] top-0 flex items-center justify-center"
         >
           <div className="w-full h-full bg-[#0000003f] absolute"></div>
-          <div className=" txt1 absolute flex flex-col gap-5 text-white z-[1] left-[5%] bottom-[15%]  ">
-            <p className="text-5xl  spectral-light">Diamond2 Flagship Store</p>
-            <p className="text-xl montserrat font-medium">
+          <div className=" txt1  absolute flex flex-col gap-3 md:gap-5 text-white z-[1] left-[5%] bottom-[15%]  ">
+            <p className="  text-3xl md:text-5xl  spectral-light">
+              Diamond2 Flagship Store
+            </p>
+            <p className="text-sm  md:text-xl montserrat font-medium">
               Wisma Atira ,Singapore
             </p>
-            <button className="bg-[#6D1D45] px-4 py-2 w-fit rounded-lg text-white ">
+            <button className="bg-[#6D1D45] px-2 py-1 text-xs md:text-lg  md:px-4 md:py-2 w-fit rounded-sm md:rounded-lg text-white ">
               Locate Us
             </button>
           </div>
@@ -107,12 +109,12 @@ export default function Scroll() {
           className="w-full h-full overflow-hidden z-[2]  absolute  flex items-center justify-center"
         >
           <div className="w-full h-full bg-[#0000003f] z-[2]  absolute"></div>
-          <div className=" txt2 absolute flex flex-col gap-5 text-white z-[2] left-[5%] top-[15%]  ">
-            <p className="text-5xl  spectral-light">Diamond2 Store</p>
-            <p className="text-xl montserrat font-medium">
+          <div className=" txt2 absolute flex flex-col gap-3 md:gap-5 text-white z-[2] left-[5%] top-[15%]  ">
+            <p className="  text-3xl md:text-5xl  spectral-light">Diamond2 Store</p>
+            <p className="text-sm  md:text-xl montserrat font-medium">
               Vivo City ,Singapore
             </p>
-            <button className="bg-[#6D1D45] px-4 py-2 w-fit rounded-lg text-white ">
+            <button className="bg-[#6D1D45] px-2 py-1 text-xs md:text-lg  md:px-4 md:py-2 w-fit rounded-sm md:rounded-lg text-white ">
               Locate Us
             </button>
           </div>
@@ -127,12 +129,12 @@ export default function Scroll() {
           className="w-full h-full overflow-hidden z-[3] absolute  flex items-center justify-center"
         >
           <div className="w-full h-full bg-[#0000003f]  z-[3] absolute"></div>
-          <div className=" txt3 absolute flex flex-col gap-5 text-[#ffffff] z-[3] right-[5%] bottom-[10%]  ">
-            <p className="text-5xl  spectral-light">Diamond2 Experience Center</p>
-            <p className="text-xl montserrat font-medium">
-             Haryana, India
+          <div className=" txt3 absolute flex flex-col gap-3 md:gap-5 text-[#ffffff] z-[3] left-[5%] md:right-[5%] bottom-[10%]  ">
+            <p className="  text-3xl md:text-5xl  spectral-light">
+              Diamond2 Experience Center
             </p>
-            <button className="bg-[#6D1D45] px-4 py-2 w-fit rounded-lg text-white ">
+            <p className="text-sm  md:text-xl montserrat font-medium">India</p>
+            <button className="bg-[#6D1D45] px-2 py-1 text-xs md:text-lg  md:px-4 md:py-2 w-fit rounded-sm md:rounded-lg text-white ">
               Locate Us
             </button>
           </div>

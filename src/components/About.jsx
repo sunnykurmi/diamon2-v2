@@ -7,6 +7,11 @@ const About = () => {
   const imageflip = "/images/stores/sketchflip.webp";
 
   useEffect(() => {
+
+    if(window.innerWidth<=640){
+      return;
+    }
+
     import("gsap/ScrollTrigger").then((module) => {
       const ScrollTrigger = module.ScrollTrigger;
       gsap.registerPlugin(ScrollTrigger);
@@ -74,35 +79,35 @@ const About = () => {
 
   return (
     <div>
-      <div className="parent h-fit w-full relative overflow-hidden flex items-center justify-center">
-        <div className="w-1/2 h-full center">
+      <div className="parent h-fit pt-20 md:pt-0  w-full relative overflow-hidden flex items-center justify-center">
+        <div className=" max-[640px]:hidden w-1/2 h-full center">
           <img
             src={image}
             className="w-full sketch_image_1 h-full object-contain"
             alt=""
           />
         </div>
-        <div className="w-1/2 h-full center">
+        <div className=" max-[640px]:hidden w-1/2 h-full center">
           <img
             src={imageflip}
             className="w-full sketch_image_2 h-full object-contain "
             alt=""
           />
         </div>
-        <div className="absolute gap-2 w-[25vw] flex items-center justify-evenly flex-col">
-          <p className="spectral-extralight-italic overflow-hidden  mb-4 text-[2vw] leading-7 text-center text-[#6D1D45]">
+        <div className=" relative md:absolute gap-2 w-full px-5 md:px-0  md:w-[25vw] flex items-center justify-evenly flex-col">
+          <p className="spectral-extralight-italic overflow-hidden  mb-4 text-3xl md:text-[2vw] leading-tight text-center text-[#6D1D45]">
             <span className="block txt_anim ">
               A World Beyond Mined Diamonds
             </span>
           </p>
-          <p className="text-[.8vw] text-center overflow-hidden">
+          <p className="      text-xs  md:text-[.8vw] montserrat font-normal opacity-80 text-center overflow-hidden">
             <span className="block txt_anim">
               Our revolutionary lab-grown Diamond2<sup>®</sup> is an innovative
               breakthrough that seeks to disrupt the tradition-bound world of
               fine jewellery dominated by the mined diamonds.
             </span>
           </p>
-          <p className="text-[.8vw] text-center overflow-hidden">
+          <p className=" text-xs  md:text-[.8vw] montserrat font-normal opacity-80 text-center overflow-hidden">
             <span className="block txt_anim">
               The Diamond2<sup>®</sup> fine jewellery collection is designed and
               developed by our in-house creative team based in Milan, Italy, the
