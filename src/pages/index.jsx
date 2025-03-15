@@ -29,14 +29,14 @@ useEffect(() => {
 
   return (
     <div className="overflow-x-hidden">
-      {/* <Loader/>  */}
-      {/* <Nav />
+      <Loader/> 
+      <Nav />
       <Hero />
       <About />
-      <ModelSection /> */}
-      {/* <Collection /> */}
-      {/* <Scroll/> */}
-      {/* <KnowMore /> */}
+      <ModelSection />
+      <Collection />
+      <Scroll/>
+      <KnowMore />
       <Footer />
     </div>
   );
