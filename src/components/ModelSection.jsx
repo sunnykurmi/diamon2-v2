@@ -19,12 +19,12 @@ const ModelSection = () => {
         <div className=" w-full h-[50%]   lg:w-[50%] md:h-full  flex flex-col gap-5 items-center justify-center text-center">
           <p className="capitalize text-2xl md:text-4xl  ">
             {" "}
-            <span className="text-[#6d1d45] spectral-extralight-italic text-3xl md:text-6xl   ">
+            <span className="text-[#6d1d45] spectral-extralight-italic text-3xl md:text-4xl lg:text-6xl   ">
               {" "}
               Jewellery Collection
             </span>
           </p>
-          <p className=" w-full flex flex-col montserrat font-normal opacity-80 leading-tight  text-xs  lg:w-[70%]   lg:text-lg  mb-10 md:mb-0">
+          <p className=" w-full flex flex-col montserrat font-normal opacity-80 leading-tight  text-xs  md:w-[70%]    lg:text-lg  mb-10 md:mb-0">
             <span>
               Diamond2® reimagines the world of fine jewellery with timeless
               contemporary designs featuring our revolutionary lab-grown
