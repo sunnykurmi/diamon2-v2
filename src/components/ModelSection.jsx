@@ -20,14 +20,15 @@ const ModelSection = () => {
     <div>
       <div className="w-full h-fit md:h-[100vh] flex flex-col lg:flex-row px-5 md:px-0 md:p-5 md:py-10">
         <div className="w-full lg:w-[50%] h-full center">
-          <div className="w-full h-[50%] cursor-grab center flex-col md:w-[80%] md:h-[80%]">
+          <div className="w-full h-[50vh]  cursor-grab center flex-col md:w-[80%] md:h-[80%]">
             <Suspense fallback={<div className="text-black text-lg">Loading 3D Model...</div>}>
               <Scene ringColor={ringColor} diamondColor={diamondColor} />
-              <div className="w-full h-10 center gap-2">
+            </Suspense>
+              <div className="w-full h-10 mb-10 md:mb-0  center gap-4 md:gap-2">
                 {colors.map((color, index) => (
                   <div
                     key={index}
-                    className="h-8 w-8 rounded-full rotate-45 overflow-hidden cursor-pointer flex"
+                    className="size-5  md:size-8 rounded-full rotate-45 overflow-hidden cursor-pointer flex"
                     onClick={() => {
                       setRingColor(color.ring);
                       setDiamondColor(color.diamond);
@@ -40,7 +41,6 @@ const ModelSection = () => {
                   </div>
                 ))}
               </div>
-            </Suspense>
           </div>
         </div>
         <div className="w-full h-[50%] lg:w-[50%] md:h-full flex flex-col gap-5 items-center justify-center text-center">

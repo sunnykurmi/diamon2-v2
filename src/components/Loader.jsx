@@ -5,13 +5,12 @@ function Loader() {
   const [progress, setProgress] = useState(0);
   const [isLoaded, setIsLoaded] = useState(false);
   const [isAnimating, setIsAnimating] = useState(true);
-  const [animationCycle, setAnimationCycle] = useState(0);
 
   useEffect(() => {
     // Increase progress smoothly until 99%
     const interval = setInterval(() => {
       setProgress((prev) => (prev < 99 ? prev + 1 : prev));
-    }, 30);
+    }, 30); // Adjust speed of progress animation
 
     // Function to handle full load
     const handleLoad = () => {
@@ -38,17 +37,6 @@ function Loader() {
     };
   }, []);
 
-  // Restart animation cycle when the last image completes
-  useEffect(() => {
-    if (!isLoaded) {
-      const cycleInterval = setInterval(() => {
-        setAnimationCycle((prev) => prev + 1);
-      }, 2500); // Delay matches animation time
-
-      return () => clearInterval(cycleInterval);
-    }
-  }, [isLoaded]);
-
   return (
     <>
       {isAnimating && (
@@ -63,11 +51,11 @@ function Loader() {
             <img className=" w-[40%] md:w-[12%]" src="/images/logo_text_2.png" alt="Logo" />
           </div>
 
-          {/* Image Loader Animation (Looping Effect) */}
+          {/* Image Loader Animation */}
           <div className=" w-[70%] md:w-[20vw] h-[60vh] relative overflow-hidden">
             {[...Array(5)].map((_, i) => (
               <motion.div
-                key={`${animationCycle}-${i}`} // Ensure re-render on cycle change
+                key={i}
                 className="w-full h-full overflow-hidden absolute"
                 initial={{ top: 500 }}
                 animate={{ top: 0 }}
@@ -78,7 +66,7 @@ function Loader() {
                   animate={{ top: 0, scale: 1 }}
                   transition={{ duration: 0.5, delay: i * 0.5 }}
                   className="w-[100%] object-cover h-[100%] absolute"
-                  src={`/images/collection/cln_${(i % 5) + 1}.webp`}
+                  src={`/images/collection/cln_${i + 1}.webp`}
                   alt=""
                 />
               </motion.div>

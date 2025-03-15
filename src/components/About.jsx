@@ -64,7 +64,7 @@ const About = () => {
 
   return (
     <div>
-      <div className="parent h-fit pt-20 md:pt-0 w-full relative overflow-hidden flex items-center justify-center">
+      <div className="parent h-fit py-20 md:py-0 w-full relative overflow-hidden flex items-center justify-center">
         <div className=" max-[640px]:hidden w-1/2 h-full center">
           <img
             src={image}
