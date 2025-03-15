@@ -13,11 +13,19 @@ import "lenis/dist/lenis.css";
 import { useEffect } from "react";
 
 const Home = () => {
-  useEffect(() => {
-    const lenis = new Lenis({
-      autoRaf: true,
-    });
-  }, []);
+useEffect(() => {
+  const lenis = new Lenis({
+    smooth: true,
+    lerp: 0.1, 
+  });
+
+  function raf(time) {
+    lenis.raf(time);
+    requestAnimationFrame(raf);
+  }
+  requestAnimationFrame(raf);
+}, []);
+
 
   return (
     <div className="overflow-x-hidden">
@@ -27,7 +35,7 @@ const Home = () => {
       <About />
       <ModelSection />
       <Collection />
-      <Scroll />
+      <Scroll/>
       <KnowMore />
       <Footer />
     </div>

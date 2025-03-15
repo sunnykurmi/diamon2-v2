@@ -34,9 +34,12 @@ const Nav = () => {
           />
         </div>
         <div className="w-[20%] h-full  flex items-center justify-end ">
+          <a href="#parent">
+
           <button className="bg-[#6D1D45] px-2 py-1 text-xs md:text-lg whitespace-nowrap md:px-4 md:py-2 rounded-sm md:rounded-lg text-white ">
             Locate Us
           </button>
+          </a>
         </div>
       </div>
     </div>
