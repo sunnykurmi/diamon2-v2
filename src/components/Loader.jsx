@@ -44,7 +44,7 @@ function Loader() {
           initial={{ y: 0 }}
           animate={isLoaded ? { y: "-110%", opacity: 0 } : {}}
           transition={{ duration: 0.7, delay: 0.3 }}
-          className="w-full h-[100vh] fixed top-0 z-[999] bg-white flex flex-col items-center justify-evenly"
+          className="w-full h-[100vh] fixed top-0 z-[999] bg-white flex flex-col items-center justify-center gap-10"
         >
           {/* Logo */}
           <div className="w-full center">
@@ -52,7 +52,7 @@ function Loader() {
           </div>
 
           {/* Image Loader Animation */}
-          <div className=" w-[70%] md:w-[20vw] h-[60vh] relative overflow-hidden">
+          <div className=" w-[70%] md:w-[20vw] h-[50vh] relative overflow-hidden">
             {[...Array(5)].map((_, i) => (
               <motion.div
                 key={i}
