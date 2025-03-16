@@ -28,15 +28,15 @@ const Collection = () => {
         <div className=" h-fit   justify-items-center  flex flex-col md:flex-row gap-5   ">
           {collection.map((item) => (
             <div key={item.id} className="w-full md:w-[25vw]   h-fit center flex-col  ">
-              <div className=" w-[75vw] h-[75vw] md:w-[25vw] md:h-[25vw]   rounded-sm overflow-hidden  transition-transform duration-500">
+              <div className=" w-[85vw] h-[85vw] md:w-[25vw] md:h-[25vw]   rounded-sm overflow-hidden  transition-transform duration-500">
                 <img
                   src={item.img}
                   alt=""
                   className="object-cover h-full w-full hover:scale-110 transition-transform duration-500"
                 />
               </div>
-              <div className="  mb-6 md:mb-0  w-[75vw] md:w-[25vw]  pt-1 md:pt-5  flex items-center justify-start md:justify-center  md:text-center ">
-                <p className=" opacity-80 tracking-tighter text-xl  spectral-regular   lg:text-base xl:text-2xl    capitalize text-[#6d1d45]">
+              <div className="  mb-6 md:mb-0  w-[85vw] md:w-[25vw]  pt-1 md:pt-5  flex items-center justify-start md:justify-center  md:text-center ">
+                <p className=" opacity-80 tracking-tighter text-2xl  spectral-regular   lg:text-base xl:text-2xl    capitalize text-[#0d0d0d] ">
                   {item.name}
                 </p>
               </div>

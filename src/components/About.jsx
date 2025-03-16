@@ -83,14 +83,14 @@ const About = () => {
           <p className="spectral-extralight-italic overflow-hidden mb-4 text-3xl md:text-[2vw] leading-tight text-center text-[#6D1D45]">
             <span className="block txt_anim">A World Beyond Mined Diamonds</span>
           </p>
-          <p className="text-xs md:text-[.8vw] montserrat font-normal opacity-80 text-center overflow-hidden">
+          <p className="text-xs text-[#262626]  md:text-[.8vw] montserrat font-normal opacity-80 text-center overflow-hidden">
             <span className="block txt_anim">
               Our revolutionary lab-grown Diamond2<sup>®</sup> is an innovative
               breakthrough that seeks to disrupt the tradition-bound world of
               fine jewellery dominated by the mined diamonds.
             </span>
           </p>
-          <p className="text-xs md:text-[.8vw] montserrat font-normal opacity-80 text-center overflow-hidden">
+          <p className="text-xs md text-[#262626] :text-[.8vw] montserrat font-normal opacity-80 text-center overflow-hidden">
             <span className="block txt_anim">
               The Diamond2<sup>®</sup> fine jewellery collection is designed and
               developed by our in-house creative team based in Milan, Italy, the
