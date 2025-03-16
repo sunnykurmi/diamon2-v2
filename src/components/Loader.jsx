@@ -52,7 +52,7 @@ function Loader() {
           </div>
 
           {/* Image Loader Animation */}
-          <div className=" w-[70%] md:w-[20vw] h-[50vh] relative overflow-hidden">
+          <div className=" w-[35%] md:w-[20vw] h-[30vh] md:h-[50vh] relative overflow-hidden">
             {[...Array(5)].map((_, i) => (
               <motion.div
                 key={i}
