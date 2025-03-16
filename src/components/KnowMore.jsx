@@ -4,7 +4,7 @@ const KnowMore = () => {
   const cards = [
     {
       img: "/images/blogs/blog_cvr_2.webp",
-      name: "What is Diamond2 ?",
+      name: "What is Diamond2?",
       link: "/blogs/blog1",
     },
     {
@@ -40,9 +40,9 @@ const KnowMore = () => {
                   />
                 </a>
               </div>
-              <div className="w-[75vw]   pt-1 md:pt-5  flex items-center justify-start md:justify-center  md:text-center ">
+              <div className="w-full md:w-[25vw]   pt-1 md:pt-5  flex items-center justify-start md:justify-center  md:text-center ">
                 <a href={item.link}>
-                  <p className=" opacity-80 text-xs   lg:text-base xl:text-xl 2xl:text-4xl   capitalize text-[#6d1d45]">
+                  <p className=" opacity-80 text-xs   lg:text-base xl:text-xl   capitalize text-[#6d1d45]">
                     {item.name}
                   </p>
                 </a>

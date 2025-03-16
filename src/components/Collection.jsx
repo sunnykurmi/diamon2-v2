@@ -35,8 +35,8 @@ const Collection = () => {
                   className="object-cover h-full w-full hover:scale-110 transition-transform duration-500"
                 />
               </div>
-              <div className="w-[75vw]  pt-1 md:pt-5  flex items-center justify-start md:justify-center  md:text-center ">
-                <p className=" opacity-80 text-xs   lg:text-base xl:text-xl 2xl:text-4xl   capitalize text-[#6d1d45]">
+              <div className="w-full md:w-[25vw]  pt-1 md:pt-5  flex items-center justify-start md:justify-center  md:text-center ">
+                <p className=" opacity-80 text-xs   lg:text-base xl:text-xl    capitalize text-[#6d1d45]">
                   {item.name}
                 </p>
               </div>

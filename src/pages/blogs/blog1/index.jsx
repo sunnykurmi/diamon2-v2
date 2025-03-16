@@ -37,7 +37,7 @@ const index = () => {
       <div className="w-full  text-[#262626]   flex flex-col text-center items-center  spectral-regular ">
         <div className="center flex-col gap-10 w-full py-10">
           <p className=' text-3xl md:text-7xl '>What is
-            DIAMOND2 ?</p>
+            DIAMOND2?</p>
         </div>
         <div className=" w-full p-5  md:w-[40vw] h-[80vh] md:h-[120vh] ">
           <img className='w-full h-full object-cover' src="/images/blogs/blog_cvr_1.webp" alt="" />

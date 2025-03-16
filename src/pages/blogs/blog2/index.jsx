@@ -27,7 +27,7 @@ const page = () => {
           <RiArrowRightSLine opacity={.5} size={16} />
           <a href="">Blogs</a>
           <RiArrowRightSLine opacity={.5} size={16} />
-          <a href="">Why Diamond2 ?</a>
+          <a href="">Why Diamond2?</a>
         </div>
         <div className="w-[30%] flex items-center justify-end gap-2  text-xs font-light h-full ">
           <p className='underline cursor-pointer' onClick={handleShareClick}>
@@ -38,7 +38,7 @@ const page = () => {
         
         <div className="center flex-col gap-10  w-full pb-10">
           <p className=' text-3xl md:text-7xl'>Why
-            DIAMOND2 ?</p>
+            DIAMOND2?</p>
         </div>
         <div className=" w-full p-5  md:w-[40vw] h-[80vh] md:h-[120vh] ">
           <img className='w-full h-full object-cover' src="/images/blogs/blog_cvr_2.webp" alt="" />
