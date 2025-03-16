@@ -25,9 +25,12 @@ const KnowMore = () => {
         <p className=" spectral-extralight-italic capitalize text-[#6d1d45] italic text-3xl md:text-4xl lg:text-6xl">
           Know More
         </p>
-        <div className="w-full h-fit  justify-items-center  flex flex-col md:flex-row gap-5  ">
+        <div className=" h-fit   justify-items-center  flex flex-col md:flex-row gap-5   ">
           {cards.map((item, i) => (
-            <div key={item.id} className="w-full  h-fit center flex-col  ">
+            <div
+              key={item.id}
+              className="w-full md:w-[25vw]   h-fit center flex-col  "
+            >
               <div className=" w-[75vw] h-[75vw] md:w-[25vw] md:h-[25vw]   rounded-sm overflow-hidden  transition-transform duration-500">
                 <a href={item.link}>
                   <img
@@ -39,7 +42,7 @@ const KnowMore = () => {
               </div>
               <div className="w-[75vw]   pt-1 md:pt-5  flex items-center justify-start md:justify-center  md:text-center ">
                 <a href={item.link}>
-                  <p className=" opacity-80 text-xs   lg:text-xl   capitalize text-[#6d1d45]">
+                  <p className=" opacity-80 text-xs   lg:text-base xl:text-xl 2xl:text-4xl   capitalize text-[#6d1d45]">
                     {item.name}
                   </p>
                 </a>
