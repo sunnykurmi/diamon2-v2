@@ -22,7 +22,7 @@ const Collection = () => {
   return (
     <div>
       <div className="w-full h-fit  md:h-[70vh] xl:h-screen gap-5 md:gap-0  flex-col flex items-center justify-evenly px-5 md:px-10 lg:px-32 py-10 md:py-0">
-        <p className=" spectral-extralight-italic capitalize text-[#6d1d45] italic text-3xl md:text-4xl lg:text-6xl ">
+        <p className=" spectral-extralight-italic capitalize text-[#6d1d45] italic text-4xl md:text-4xl lg:text-6xl ">
           Our collections
         </p>
         <div className=" h-fit   justify-items-center  flex flex-col md:flex-row gap-5   ">
@@ -35,8 +35,8 @@ const Collection = () => {
                   className="object-cover h-full w-full hover:scale-110 transition-transform duration-500"
                 />
               </div>
-              <div className="w-full md:w-[25vw]  pt-1 md:pt-5  flex items-center justify-start md:justify-center  md:text-center ">
-                <p className=" opacity-80 text-xs   lg:text-base xl:text-xl    capitalize text-[#6d1d45]">
+              <div className="  mb-6 md:mb-0  w-[75vw] md:w-[25vw]  pt-1 md:pt-5  flex items-center justify-start md:justify-center  md:text-center ">
+                <p className=" opacity-80 tracking-tighter text-xl  spectral-regular   lg:text-base xl:text-2xl    capitalize text-[#6d1d45]">
                   {item.name}
                 </p>
               </div>
