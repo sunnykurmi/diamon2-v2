@@ -92,7 +92,7 @@ export default function Scroll() {
               Diamond2 Flagship Store
             </p>
             <p className="text-sm  md:text-xl montserrat font-medium">
-              Wisma Atira ,Singapore
+              Wisma Atira, Singapore
             </p>
             <button className="bg-[#6D1D45] px-2 py-1 text-xs md:text-lg  md:px-4 md:py-2 w-fit rounded-sm md:rounded-lg text-white ">
               Locate Us
@@ -112,7 +112,7 @@ export default function Scroll() {
           <div className=" txt2 absolute flex flex-col gap-3 md:gap-5 text-white z-[2] left-[5%] top-[15%]  ">
             <p className="  text-3xl md:text-5xl  spectral-light">Diamond2 Store</p>
             <p className="text-sm  md:text-xl montserrat font-medium">
-              Vivo City ,Singapore
+              Vivo City, Singapore
             </p>
             <button className="bg-[#6D1D45] px-2 py-1 text-xs md:text-lg  md:px-4 md:py-2 w-fit rounded-sm md:rounded-lg text-white ">
               Locate Us

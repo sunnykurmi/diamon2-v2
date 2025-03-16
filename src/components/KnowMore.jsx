@@ -28,7 +28,7 @@ const KnowMore = () => {
         <div className="w-full h-fit  justify-items-center  flex flex-col md:flex-row gap-5  ">
           {cards.map((item, i) => (
             <div key={item.id} className="w-full  h-fit center flex-col  ">
-              <div className=" w-[80vw] h-[80vw] md:w-[25vw] md:h-[25vw]   rounded-sm overflow-hidden  transition-transform duration-500">
+              <div className=" w-[75vw] h-[75vw] md:w-[25vw] md:h-[25vw]   rounded-sm overflow-hidden  transition-transform duration-500">
                 <a href={item.link}>
                   <img
                     src={item.img}
@@ -37,7 +37,7 @@ const KnowMore = () => {
                   />
                 </a>
               </div>
-              <div className="w-full pl-3 md:pl-0  pt-1 md:pt-5  flex items-center justify-start md:justify-center  md:text-center ">
+              <div className="w-[75vw]   pt-1 md:pt-5  flex items-center justify-start md:justify-center  md:text-center ">
                 <a href={item.link}>
                   <p className=" opacity-80 text-xs   lg:text-xl   capitalize text-[#6d1d45]">
                     {item.name}
