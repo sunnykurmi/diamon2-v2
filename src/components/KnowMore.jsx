@@ -8,7 +8,7 @@ const KnowMore = () => {
       link: "/blogs/blog1",
     },
     {
-      img: "/images/blogs/oldpic.webp",
+      img: "/images/blogs/oldpic_11zon.webp",
       name: "Why Diamond2",
       link: "/blogs/blog2",
     },

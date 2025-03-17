@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 
 const Hero = () => {
-  const heroVideo = "/videos/hero_card_vid_2.MP4";
+  const heroVideo = "/videos/hero_video.mp4";
   const videoRef = useRef(null);
 
   useEffect(() => {

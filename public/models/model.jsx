@@ -31,7 +31,7 @@ export default function Model({ ringColor, diamondColor }) {
         <mesh
           castShadow
           receiveShadow
-          geometry={nodes.object_6.geometry}
+          geometry={nodes.object_002.geometry}
           scale={0.001}
         >
           <meshStandardMaterial color={ringColor} metalness={1} roughness={0.3} />
