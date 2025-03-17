@@ -35,7 +35,7 @@ const About = () => {
         .fromTo(
           ".sketch_image_2",
           { x: 200, opacity: 0 },
-          { x: 0, opacity: 1 },
+          { x: 20, opacity: 1 },
           "start"
         )
         .fromTo(

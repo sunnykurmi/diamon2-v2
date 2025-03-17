@@ -86,7 +86,7 @@ export default function Scroll() {
           id="slide1"
           className="w-full h-full  overflow-hidden z-[1] top-0 flex items-center justify-center"
         >
-          <div className="w-full h-full bg-[#0000003f] absolute"></div>
+          <div className="w-full h-full z-[1] bg-[#0000003f] absolute"></div>
           <div className=" txt1  absolute flex flex-col gap-3 md:gap-5 text-white z-[1] left-[5%] bottom-[15%]  ">
             <p className="  text-3xl md:text-5xl  spectral-light">
               Diamond2 Flagship Store
@@ -144,6 +144,9 @@ export default function Scroll() {
             alt=""
           />
         </div>
+      </div>
+      <div className="w-full">
+        <img className="w-full object-contain h-fit" src="/images/stores/Coming Soon_11zon.webp" alt="" />
       </div>
     </div>
   );
