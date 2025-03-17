@@ -73,6 +73,19 @@ export default function Scroll() {
         },
         "hello1"
       );
+      tl.to("#slide4", { y: "-100vh" }, "hello2");
+      tl.fromTo(
+        "#lastslide",
+        {
+          y: "-100vh",
+          scale: 1.5,
+        },
+        {
+          y: 0,
+          scale: 1,
+        },
+        "hello2"
+      );
     });
   }, []);
 
@@ -110,7 +123,9 @@ export default function Scroll() {
         >
           <div className="w-full h-full bg-[#0000003f] z-[2]  absolute"></div>
           <div className=" txt2 absolute flex flex-col gap-3 md:gap-5 text-white z-[2] left-[5%] top-[15%]  ">
-            <p className="  text-3xl md:text-5xl  spectral-light">Diamond2 Store</p>
+            <p className="  text-3xl md:text-5xl  spectral-light">
+              Diamond2 Store
+            </p>
             <p className="text-sm  md:text-xl montserrat font-medium">
               Vivo City, Singapore
             </p>
@@ -144,11 +159,43 @@ export default function Scroll() {
             alt=""
           />
         </div>
-      </div>
-      <div className="w-full">
-        <img className=" max-[640px]:hidden  w-full object-contain h-fit" src="/images/stores/Coming Soon_11zon.webp" alt="" />
-        <img className=" min-[640px]:hidden  w-full object-contain h-fit" src="/images/stores/Coming_soon_mobile_11zon.webp" alt="" />
-
+        <div
+          id="slide4"
+          className="w-full h-full overflow-hidden z-[4] absolute  flex items-center justify-center bg-white"
+        >
+          <div id="lastslide" className="flex flex-col-reverse md:flex-row w-full p-2 md:p-10 h-full items-center  ">
+            <div className=" w-full md:w-[40%]  h-full center flex-col gap-1 md:gap-3 mb-4 md:mb-0">
+              <p className=" spectral-extralight-italic capitalize text-[#6d1d45] italic text-5xl mb-5 md:text-5xl lg:text-6xl ">
+                Coming Soon
+              </p>
+              <p className=" spectral-extralight-italic capitalize text-[#6d1d45] italic text-2xl md:text-2xl lg:text-4xl ">
+                Abu Dhabi
+              </p>
+              <p className=" spectral-extralight-italic capitalize text-[#6d1d45] italic text-2xl md:text-2xl lg:text-4xl ">
+                Dubai
+              </p>
+              <p className=" spectral-extralight-italic capitalize text-[#6d1d45] italic text-2xl md:text-2xl lg:text-4xl ">
+                Milan
+              </p>
+              <p className=" spectral-extralight-italic capitalize text-[#6d1d45] italic text-2xl md:text-2xl lg:text-4xl ">
+                Paris
+              </p>
+              <p className=" spectral-extralight-italic capitalize text-[#6d1d45] italic text-2xl md:text-2xl lg:text-4xl ">
+                London
+              </p>
+              <p className=" spectral-extralight-italic capitalize text-[#6d1d45] italic text-2xl md:text-2xl lg:text-4xl ">
+                Doha
+              </p>
+            </div>
+            <div className=" w-full md:w-[60%] h-full center flex-col">
+              <img
+                className="w-full h-full object-contain"
+                src="/images/stores/coming_soon_store.webp"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
