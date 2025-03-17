@@ -40,7 +40,7 @@ const KnowMore = () => {
                   />
                 </a>
               </div>
-              <div className="  mb-6 md:mb-0  w-[85vw] md:w-[25vw]  pt-1 md:pt-5  flex items-center justify-start md:justify-center  md:text-center ">
+              <div className="  mb-6 md:mb-0  w-[85vw] md:w-[25vw]  pt-1 md:pt-5  flex items-center justify-center  text-center ">
                 <a href={item.link}>
                 <p className=" opacity-80 tracking-tighter text-2xl  spectral-regular   lg:text-base xl:text-2xl    capitalize text-[#0d0d0d] ">
                     {item.name}
