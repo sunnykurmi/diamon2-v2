@@ -146,7 +146,9 @@ export default function Scroll() {
         </div>
       </div>
       <div className="w-full">
-        <img className="w-full object-contain h-fit" src="/images/stores/Coming Soon_11zon.webp" alt="" />
+        <img className=" max-[640px]:hidden  w-full object-contain h-fit" src="/images/stores/Coming Soon_11zon.webp" alt="" />
+        <img className=" min-[640px]:hidden  w-full object-contain h-fit" src="/images/stores/Coming_soon_mobile_11zon.webp" alt="" />
+
       </div>
     </div>
   );
