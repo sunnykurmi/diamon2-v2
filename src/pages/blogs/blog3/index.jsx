@@ -99,7 +99,7 @@ const page = () => {
       </div>
       <div className="w-full  text-[#262626]   flex flex-col text-center items-center  spectral-regular ">
         <div className="center flex-col gap-10 w-full py-10">
-          <p className=' text-3xl md:text-7xl '>About Stones and Cuts.</p>
+          <p className=' text-3xl md:text-7xl   tracking-tighter spectral-light '>About Stones and Cuts.</p>
         </div>
         <div className=" w-full md:w-[70%]  ">
         <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-2">

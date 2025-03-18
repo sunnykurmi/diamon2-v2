@@ -9,7 +9,7 @@ export default function Scroll() {
 
       var tl = gsap.timeline({
         scrollTrigger: {
-          trigger: "#parent",
+          trigger: "#stores",
           start: "top top",
           end: "+=" + window.innerHeight * 4,
           pin: true,
@@ -92,7 +92,7 @@ export default function Scroll() {
   return (
     <div>
       <div
-        id="parent"
+        id="stores"
         className="w-full cursor-default overflow-hidden h-[100vh]  relative"
       >
         <div
@@ -107,9 +107,11 @@ export default function Scroll() {
             <p className="text-sm  md:text-xl montserrat font-medium">
               Wisma Atira, Singapore
             </p>
-            <button className="bg-[#6D1D45] px-2 py-1 text-xs md:text-lg  md:px-4 md:py-2 w-fit rounded-sm md:rounded-lg text-white ">
-              Locate Us
-            </button>
+            <a href="https://g.co/kgs/bbA1hkQ">
+              <button className="bg-[#6D1D45] px-2 py-1 text-xs md:text-lg  md:px-4 md:py-2 w-fit rounded-sm md:rounded-lg text-white ">
+                Locate Us
+              </button>
+            </a>
           </div>
           <img
             className=" max-[640px]:hidden  w-full h-full object-cover"
@@ -134,9 +136,11 @@ export default function Scroll() {
             <p className="text-sm  md:text-xl montserrat font-medium">
               Vivo City, Singapore
             </p>
-            <button className="bg-[#6D1D45] px-2 py-1 text-xs md:text-lg  md:px-4 md:py-2 w-fit rounded-sm md:rounded-lg text-white ">
-              Locate Us
-            </button>
+            <a href="https://g.co/kgs/b4TMHAj">
+              <button className="bg-[#6D1D45] px-2 py-1 text-xs md:text-lg  md:px-4 md:py-2 w-fit rounded-sm md:rounded-lg text-white ">
+                Locate Us
+              </button>
+            </a>
           </div>
           <img
             className=" max-[640px]:hidden w-full h-full object-cover"
@@ -159,9 +163,11 @@ export default function Scroll() {
               Diamond2 Experience Center
             </p>
             <p className="text-sm  md:text-xl montserrat font-medium">India</p>
-            <button className="bg-[#6D1D45] px-2 py-1 text-xs md:text-lg  md:px-4 md:py-2 w-fit rounded-sm md:rounded-lg text-white ">
-              Locate Us
-            </button>
+            <a href="https://g.co/kgs/kvCEJsj">
+              <button className="bg-[#6D1D45] px-2 py-1 text-xs md:text-lg  md:px-4 md:py-2 w-fit rounded-sm md:rounded-lg text-white ">
+                Locate Us
+              </button>
+            </a>
           </div>
           <img
             className=" max-[640px]:hidden w-full h-full object-cover"

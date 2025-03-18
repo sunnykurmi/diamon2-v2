@@ -37,13 +37,13 @@ const page = () => {
       <div className="w-full  text-[#262626]   flex flex-col text-center items-center  spectral-regular ">
         
         <div className="center flex-col gap-10  w-full pb-10">
-          <p className=' text-3xl md:text-7xl'>Why
+          <p className=' text-3xl md:text-7xl   tracking-tighter spectral-light'>Why
             DIAMOND2?</p>
         </div>
         <div className=" w-full p-5  md:w-[40vw] h-[80vh] md:h-[120vh] ">
           <img className='w-full h-full object-cover' src="/images/blogs/blog_cvr_2.webp" alt="" />
         </div>
-        <div className="w-[90%] md:w-[40vw] montserrat opacity-90 md:text-xl  text-start py-20 md:px-5">
+        <div className="w-[90%] md:w-[40vw] montserrat opacity-90 md:text-xl  text-start py-10 md:px-5">
           <p>Our exceptional lab-grown Diamond2
             possesses a fire and brilliance
             that equals that of the mined diamonds and respects mother nature. <br /><br />

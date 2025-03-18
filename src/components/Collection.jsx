@@ -21,7 +21,7 @@ const Collection = () => {
 
   return (
     <div>
-      <div className="w-full h-fit  md:h-[70vh] xl:h-screen gap-5 md:gap-0  flex-col flex items-center justify-evenly px-5 md:px-10 lg:px-32 py-10 md:py-0">
+      <div className="w-full h-fit  md:h-[70vh] xl:h-screen gap-5   flex-col flex items-center justify-center px-5 md:px-10 lg:px-32 py-10 md:py-0">
         <p className=" spectral-extralight-italic capitalize text-[#6d1d45] italic text-4xl md:text-4xl lg:text-6xl ">
           Our collections
         </p>

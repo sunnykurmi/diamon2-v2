@@ -34,15 +34,15 @@ const index = () => {
             {linkCopied ? <p className='flex items-center'> Link copied   <RiCheckLine opacity={.5} size={16} /></p> : 'Share'}</p>
         </div>
       </div>
-      <div className="w-full  text-[#262626]   flex flex-col text-center items-center  spectral-regular ">
+      <div className="w-full  text-[#262626]   flex flex-col text-center items-center   ">
         <div className="center flex-col gap-10 w-full py-10">
-          <p className=' text-3xl md:text-7xl '>What is
+          <p className=' text-3xl md:text-7xl  tracking-tighter spectral-light '>What is
             DIAMOND2?</p>
         </div>
         <div className=" w-full p-5  md:w-[40vw] h-[80vh] md:h-[120vh] ">
           <img className='w-full h-full object-cover' src="/images/blogs/blog_cvr_1.webp" alt="" />
         </div>
-        <div className=" w-[90%] montserrat md:w-[40vw] opacity-90 md:text-xl  text-start py-20 md:px-5">
+        <div className=" w-[90%] montserrat md:w-[40vw] opacity-90 md:text-xl  text-start py-10 md:px-5">
           <p>Diamond2’s origins lie in innovative technology and advanced science.
             Born out of a technological breakthrough, our extraordinary lab-grown
             diamond rivals the mined diamonds with unique properties aimed at
