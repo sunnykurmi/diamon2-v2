@@ -47,20 +47,20 @@ const index = () => {
             Born out of a technological breakthrough, our extraordinary lab-grown
             diamond rivals the mined diamonds with unique properties aimed at
             appealing to the modern consumer of fine jewellery. <br /><br />
-            Each of Diamond2 <sup>®</sup>
+            Each of Diamond2 
             lab-grown diamond share identical optical,
             chemical, and physical characteristics with mined diamonds,
             meticulously produced in a laboratory setting by application of science
             that borders to alchemy! The result is a colourless (D, E, F) to near
-            colourless (G, H, I) Diamond2<sup>®</sup>
+            colourless (G, H, I) Diamond2
             lab-grown diamond designed to appeal
             to the modern consumer and jeweller. <br /><br />
-            Diamond2<sup>®</sup>
+            Diamond2
             , with a sparkle and fire equal to that of the mined
             diamonds, our unique offering has been designed to appeal to
             jewellers and consumers in search of contemporary fine jewellery
             that moves beyond the tradition-bound offerings of legacy brands.
-            The Diamond2<sup>®</sup> 
+            The Diamond2 
             fine jewellery collection is designed and developed by
             our in-house creative team based in Milan, Italy, the world’s design
             capital.</p> <br /><br />

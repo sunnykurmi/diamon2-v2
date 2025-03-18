@@ -85,14 +85,14 @@ const About = () => {
           </p>
           <p className="text-xs text-[#262626]  md:text-[.8vw] montserrat font-normal opacity-80 text-center overflow-hidden">
             <span className="block txt_anim">
-              Our revolutionary lab-grown Diamond2<sup>®</sup> is an innovative
+              Our revolutionary lab-grown Diamond2 is an innovative
               breakthrough that seeks to disrupt the tradition-bound world of
               fine jewellery dominated by the mined diamonds.
             </span>
           </p>
           <p className="text-xs md text-[#262626] :text-[.8vw] montserrat font-normal opacity-80 text-center overflow-hidden">
             <span className="block txt_anim">
-              The Diamond2<sup>®</sup> fine jewellery collection is designed and
+              The Diamond2 fine jewellery collection is designed and
               developed by our in-house creative team based in Milan, Italy, the
               world’s design capital.
             </span>

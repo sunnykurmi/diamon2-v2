@@ -51,10 +51,10 @@ const ModelSection = () => {
           </p>
           <p className="w-full flex flex-col montserrat font-normal opacity-80 leading-tight text-xs md:w-[70%] lg:text-lg mb-10 md:mb-0">
             <span>
-              Diamond2® reimagines the world of fine jewellery with timeless contemporary designs featuring our revolutionary lab-grown diamond.
+              Diamond2 reimagines the world of fine jewellery with timeless contemporary designs featuring our revolutionary lab-grown diamond.
             </span>
             <span className="mt-3">
-              Driven by the desire to redefine the classical canons of fine jewellery, Diamond2® presents an inspiring collection of exquisitely crafted Solitaire pieces that exalt the properties of our pioneering lab-grown diamond.
+              Driven by the desire to redefine the classical canons of fine jewellery, Diamond2 presents an inspiring collection of exquisitely crafted Solitaire pieces that exalt the properties of our pioneering lab-grown diamond.
             </span>
           </p>
         </div>

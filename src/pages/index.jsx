@@ -1,3 +1,4 @@
+import Head from "next/head";
 import About from "@/components/About";
 import Collection from "@/components/Collection";
 import Footer from "@/components/Footer";
@@ -29,6 +30,9 @@ useEffect(() => {
 
   return (
     <div className="overflow-x-hidden">
+      <Head>
+        <title>Diamond2</title>
+      </Head>
       <Loader/> 
       <Nav />
       <Hero />

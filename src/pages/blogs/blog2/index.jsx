@@ -44,12 +44,12 @@ const page = () => {
           <img className='w-full h-full object-cover' src="/images/blogs/blog_cvr_2.webp" alt="" />
         </div>
         <div className="w-[90%] md:w-[40vw] montserrat opacity-90 md:text-xl  text-start py-20 md:px-5">
-          <p>Our exceptional lab-grown Diamond2®
+          <p>Our exceptional lab-grown Diamond2
             possesses a fire and brilliance
             that equals that of the mined diamonds and respects mother nature. <br /><br />
-            Thanks to our advanced technologies, Diamond2 <sup>®</sup>
+            Thanks to our advanced technologies, Diamond2 
             offers an ethically
-            and responsibly produced lab-grown diamond that is truly oneof-a-kind. Diamond2<sup>®</sup>
+            and responsibly produced lab-grown diamond that is truly oneof-a-kind. Diamond2
             is able to place into the hands of its clients
             an aesthetically stunning lab-grown diamond without the high
             environmental toll associated with mining for diamonds and other

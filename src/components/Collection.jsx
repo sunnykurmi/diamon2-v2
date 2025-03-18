@@ -5,17 +5,17 @@ const Collection = () => {
     {
       id: 1,
       img: "/images/collection/Jewel_compressed.webp",
-      name: "Fine Jewellery Collection",
+      name: "Fine Jewellery ",
     },
     {
       id: 2,
       img: "/images/collection/Jewel2_compressed.webp",
-      name: "High Jewellery collection",
+      name: "High Jewellery ",
     },
     {
       id: 3,
       img: "/images/collection/Jewel3_compressed.webp",
-      name: "Ceremony & Engagement Collection",
+      name: "Ceremony & Engagement ",
     },
   ];
 

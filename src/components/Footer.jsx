@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="h-[90%] flex flex-col md:gap-5 gap-10 items-center justify-center w-full center text-white  ">
           <div className="w-full center ">
             <img
-              className="w-[10%] md:w-[5%] lg:w-[3%] "
+              className="w-[5%] md:w-[2%]"
               src="/images/logowhite.png"
               alt=""
             />

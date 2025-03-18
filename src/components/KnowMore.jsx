@@ -9,7 +9,7 @@ const KnowMore = () => {
     },
     {
       img: "/images/blogs/oldpic_11zon.webp",
-      name: "Why Diamond2",
+      name: "Why Diamond2?",
       link: "/blogs/blog2",
     },
     {
@@ -28,7 +28,7 @@ const KnowMore = () => {
         <div className=" h-fit   justify-items-center  flex flex-col md:flex-row gap-5   ">
           {cards.map((item, i) => (
             <div
-              key={item.id}
+              key={i}
               className="w-full md:w-[25vw]   h-fit center flex-col  "
             >
               <div className=" w-[85vw] h-[85vw] md:w-[25vw] md:h-[25vw]   rounded-sm overflow-hidden  transition-transform duration-500">
@@ -42,7 +42,7 @@ const KnowMore = () => {
               </div>
               <div className="  mb-6 md:mb-0  w-[85vw] md:w-[25vw]  pt-1 md:pt-5  flex items-center justify-center  text-center ">
                 <a href={item.link}>
-                <p className=" opacity-80 tracking-tighter text-2xl  spectral-regular   lg:text-base xl:text-2xl    capitalize text-[#0d0d0d] ">
+                  <p className=" opacity-80 tracking-tighter text-2xl  spectral-regular   lg:text-base xl:text-2xl    capitalize text-[#0d0d0d] ">
                     {item.name}
                   </p>
                 </a>

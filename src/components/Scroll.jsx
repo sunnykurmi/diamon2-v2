@@ -11,7 +11,7 @@ export default function Scroll() {
         scrollTrigger: {
           trigger: "#parent",
           start: "top top",
-          end: "+=" + window.innerHeight * 3,
+          end: "+=" + window.innerHeight * 4,
           pin: true,
           // markers: true,
           scrub: true,
@@ -99,7 +99,7 @@ export default function Scroll() {
           id="slide1"
           className="w-full h-full  overflow-hidden z-[1] top-0 flex items-center justify-center"
         >
-          <div className="w-full h-full z-[1] bg-[#0000003f] absolute"></div>
+          <div className="w-full h-full z-[1] bg-[] absolute"></div>
           <div className=" txt1  absolute flex flex-col gap-3 md:gap-5 text-white z-[1] left-[5%] bottom-[15%]  ">
             <p className="  text-3xl md:text-5xl  spectral-light">
               Diamond2 Flagship Store
@@ -112,8 +112,13 @@ export default function Scroll() {
             </button>
           </div>
           <img
-            className="w-full h-full object-cover"
-            src="/images/stores/store_1_11zon.webp"
+            className=" max-[640px]:hidden  w-full h-full object-cover"
+            src="/images/stores/laptop_2.webp"
+            alt=""
+          />
+          <img
+            className=" min-[640px]:hidden  w-full h-full object-cover"
+            src="/images/stores/mobile_4.webp"
             alt=""
           />
         </div>
@@ -121,8 +126,8 @@ export default function Scroll() {
           id="slide2"
           className="w-full h-full overflow-hidden z-[2]  absolute  flex items-center justify-center"
         >
-          <div className="w-full h-full bg-[#0000003f] z-[2]  absolute"></div>
-          <div className=" txt2 absolute flex flex-col gap-3 md:gap-5 text-white z-[2] left-[5%] top-[15%]  ">
+          <div className="w-full h-full bg-[] z-[2]  absolute"></div>
+          <div className=" txt2 absolute flex flex-col gap-3 md:gap-5 text-white z-[2] left-[5%] bottom-[15%] md:top-[15%]  ">
             <p className="  text-3xl md:text-5xl  spectral-light">
               Diamond2 Store
             </p>
@@ -134,8 +139,13 @@ export default function Scroll() {
             </button>
           </div>
           <img
-            className="w-full h-full object-cover"
-            src="/images/stores/store_2_11zon.webp"
+            className=" max-[640px]:hidden w-full h-full object-cover"
+            src="/images/stores/laptop_3.webp"
+            alt=""
+          />
+          <img
+            className=" min-[640px]:hidden  w-full h-full object-cover"
+            src="/images/stores/mobile_2.webp"
             alt=""
           />
         </div>
@@ -143,7 +153,7 @@ export default function Scroll() {
           id="slide3"
           className="w-full h-full overflow-hidden z-[3] absolute  flex items-center justify-center"
         >
-          <div className="w-full h-full bg-[#0000003f]  z-[3] absolute"></div>
+          <div className="w-full h-full bg-[]  z-[3] absolute"></div>
           <div className=" txt3 absolute flex flex-col gap-3 md:gap-5 text-[#ffffff] z-[3] left-[5%] md:right-[5%] bottom-[10%]  ">
             <p className="  text-3xl md:text-5xl  spectral-light">
               Diamond2 Experience Center
@@ -154,10 +164,16 @@ export default function Scroll() {
             </button>
           </div>
           <img
-            className="w-full h-full object-cover"
-            src="/images/stores/store_3_11zon.webp"
+            className=" max-[640px]:hidden w-full h-full object-cover"
+            src="/images/stores/laptop_1.webp"
             alt=""
           />
+          <img
+            className=" min-[640px]:hidden  w-full h-full object-cover"
+            src="/images/stores/mobile_1_1.webp"
+            alt=""
+          />
+
         </div>
         <div
           id="slide4"
